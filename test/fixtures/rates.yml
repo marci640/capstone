@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  year: 1
+  carrier_number: 1
+  locality: 1
+  procedure_code: 1
+  modifier: 1
+  non_facility_fee: 1.5
+  facility_fee: 1.5
+  filler: MyText
+  pctc_indicator: 1
+  status_code: MyString
+  multiple_surgery_indictor: 1
+  section_1848: 1.5
+  section_1834: 1.5
+  opps_indicator: 1
+  opps_non_facility: 1.5
+  opps_facility: 1.5
+
+two:
+  year: 1
+  carrier_number: 1
+  locality: 1
+  procedure_code: 1
+  modifier: 1
+  non_facility_fee: 1.5
+  facility_fee: 1.5
+  filler: MyText
+  pctc_indicator: 1
+  status_code: MyString
+  multiple_surgery_indictor: 1
+  section_1848: 1.5
+  section_1834: 1.5
+  opps_indicator: 1
+  opps_non_facility: 1.5
+  opps_facility: 1.5

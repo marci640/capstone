@@ -1,0 +1,26 @@
+
+<h3> Here are your results: </h3>
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>State Average</th>
+      <th>Hospital Charge</th>
+      <th>The Difference</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+<tr>
+    <% @average_fees.each do |fee| %>
+        <%if fee != nil %>
+            <td> <%= fee.round(2) %> </td>
+            </tr>
+        <%end%>
+    <%end%>
+  
+  </tbody>
+</table>
+
